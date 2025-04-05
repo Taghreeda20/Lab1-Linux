@@ -22,6 +22,9 @@
   9- Display the first 4 lines of /etc/passwd :
   10-Display the last 7 lines of /etc/passwd : 
          ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/43372cf2d1589045db6ae1185efa548213ecddd0/Screenshot%202025-04-05%20233946.png) 
+   11-Display the man pages of passwd the command and the file sequentially in one command : 
+          ![Image Alt]() 
+
 
 
   
