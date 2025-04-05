@@ -12,5 +12,6 @@
   c- The output of the command pwd was /home/user. Write the absolute and relative path for the file mycv : 
       ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/ac7465e7a4946a100709b87c69fe0593d079b91e/Screenshot%202025-04-05%20220421.png)
 5. Copy the /etc/passwd file to your home directory making its name is mypasswd.
- ![Image Alt]()
+6. Rename this new file to be oldpasswd.
+ ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/f4f04f72ae598de23e0514d4ab54032be902426d/Screenshot%202025-04-05%20220637.png)
       
