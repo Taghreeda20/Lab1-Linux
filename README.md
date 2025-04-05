@@ -7,3 +7,5 @@
  ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/9418eefe0041f38edc8dbfda4ea4cb6a24f34937/Screenshot%202025-04-05%20213319.png)
   a-Remove dir11 in one-step : 
      ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/2b9fb82545302d6da45929ed74b7e31a5f224954/Screenshot%202025-04-05%20221356.png)
+  b- remove dir12 using rmdir –p command : 
+     ![Image Alt]()
