@@ -15,3 +15,4 @@
   5-  Copy the /etc/passwd file to your home directory making its name is mypasswd :
   6-  Rename this new file to be oldpasswd :
    ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/ec9a0d45819a3a6d8246fdf6ece3fd4dce95a4b9/Screenshot%202025-04-05%20232900.png)
+    ![Image Alt]() 
