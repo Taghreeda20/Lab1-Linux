@@ -9,3 +9,6 @@
      ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/2b9fb82545302d6da45929ed74b7e31a5f224954/Screenshot%202025-04-05%20221356.png)
   b- remove dir12 using rmdir –p command : 
      ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/016f495d06ee812c9ea00e36e93ac5eb101ed659/Screenshot%202025-04-05%20221209.png)
+  c- The output of the command pwd was /home/user. Write the absolute and relative path for the file mycv : 
+      ![Image Alt]()
+
