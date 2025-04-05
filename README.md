@@ -4,4 +4,4 @@
 3- What is the difference between cat and more command?
  ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/b7fb229ce67238b1dee93b456247bbb5f1714b58/Screenshot%202025-04-05%20225134.png)
  4-Create the following hierarchy under your home directory:
- ![Image Alt]()
+ ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/9418eefe0041f38edc8dbfda4ea4cb6a24f34937/Screenshot%202025-04-05%20213319.png)
