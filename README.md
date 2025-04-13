@@ -124,6 +124,7 @@
   14-Using vi write your CV in the file mycv. Your CV should include your name, age, school, college, experience,.. : 
 
    Taghreed20@Ubuntu5:~$ vi mycv
+   
   ![image](https://github.com/user-attachments/assets/4f6dfd52-d130-4fd6-a9a7-7ede4a6dfb9f)
 
 
