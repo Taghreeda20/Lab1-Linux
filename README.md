@@ -1,29 +1,42 @@
 # Lab1-Linux
-2- What is the difference between cat and more command?
+  2- What is the difference between cat and more command?
   ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/c3b99842333eefbf6ebddd7a8bbdfb961e39500f/Screenshot%202025-04-05%20222828.png)
-3- What is the difference between cat and more command?
- ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/b7fb229ce67238b1dee93b456247bbb5f1714b58/Screenshot%202025-04-05%20225134.png)
- 4-Create the following hierarchy under your home directory:
- ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/9418eefe0041f38edc8dbfda4ea4cb6a24f34937/Screenshot%202025-04-05%20213319.png)
-  a-Remove dir11 in one-step : 
-     ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/2b9fb82545302d6da45929ed74b7e31a5f224954/Screenshot%202025-04-05%20221356.png)
+  3- What is the difference between cat and more command?
+  ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/b7fb229ce67238b1dee93b456247bbb5f1714b58/Screenshot%202025-04-05%20225134.png)
+  4-Create the following hierarchy under your home directory:
+  
+    Taghreed20@Ubuntu5:~$ mkdir dir1
+    Taghreed20@Ubuntu5:~$ mkdir dir1/dir11
+    Taghreed20@Ubuntu5:~$ mkdir dir1/dir12
+    Taghreed20@Ubuntu5:~$ touch dir1/dir11/file1
+    Taghreed20@Ubuntu5:~$ mkdir docs
+    Taghreed20@Ubuntu5:~$ touch docs/mycv
+    Taghreed20@Ubuntu5:~$ ls
+    Desktop  docs       Downloads  Pictures  snap       Videos
+    dir1     Documents  Music      Public    Templates
+    Taghreed20@Ubuntu5:~$ ls dir1
+    dir11  dir12
+
   b- remove dir12 using rmdir –p command : 
-     ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/016f495d06ee812c9ea00e36e93ac5eb101ed659/Screenshot%202025-04-05%20221209.png)
-  c- The output of the command pwd was /home/user. Write the absolute and relative path for the file mycv : 
-      ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/ac7465e7a4946a100709b87c69fe0593d079b91e/Screenshot%202025-04-05%20220421.png)
-      
+
+    Taghreed20@Ubuntu5:~$ cd dir1
+    Taghreed20@Ubuntu5:~/dir1$ rm dir11
+    rm: cannot remove 'dir11': Is a directory
+    Taghreed20@Ubuntu5:~/dir1$ rm -r dir11
+    Taghreed20@Ubuntu5:~/dir1$ ls dir1
+    ls: cannot access 'dir1': No such file or directory
+    Taghreed20@Ubuntu5:~/dir1$ ls
+    dir12
+    Taghreed20@Ubuntu5:~/dir1$ rmdir -p dir12
+
+  c- The output of the command pwd was /home/user. Write the absolute and relative path for the file mycv :   
+  
   5-  Copy the /etc/passwd file to your home directory making its name is mypasswd :
   6-  Rename this new file to be oldpasswd :
-   ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/ec9a0d45819a3a6d8246fdf6ece3fd4dce95a4b9/Screenshot%202025-04-05%20232900.png)
-    ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/ba29ad670c8cfd048adc5baaa6083c0fc3039252/Screenshot%202025-04-05%20233103.png) 
-  7- list four ways to go to your home directory : 
-     ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/8eb6e7250ea87949f1125eedca3b1aa4eb201032/Screenshot%202025-04-05%20233459.png)
-     
+  7- list four ways to go to your home directory :
   9- Display the first 4 lines of /etc/passwd :
   10-Display the last 7 lines of /etc/passwd : 
-         ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/43372cf2d1589045db6ae1185efa548213ecddd0/Screenshot%202025-04-05%20233946.png) 
-   11-Display the man pages of passwd the command and the file sequentially in one command : 
-          ![Image Alt]() 
+  11-Display the man pages of passwd the command and the file sequentially in one command : 
 
 
 
