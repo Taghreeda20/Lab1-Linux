@@ -112,7 +112,8 @@
   12- Display the man page of the passwd file : 
 
     Taghreed20@Ubuntu5:~$ man 5 passwd
-  ![image](https://github.com/user-attachments/assets/cd992253-8f4f-4d3d-9e9f-0a02fdedc690)
+    ![image](https://github.com/user-attachments/assets/70a2f15b-53f3-4a2a-a5d0-6ce7a91716f8)
+
 
 
 
