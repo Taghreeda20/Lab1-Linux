@@ -126,7 +126,17 @@
     Taghreed20@Ubuntu5:~$ vi mycv
   ![image](https://github.com/user-attachments/assets/4f6dfd52-d130-4fd6-a9a7-7ede4a6dfb9f)
 
-
+  16- st the available shells in your system : 
+  
+    Taghreed20@Ubuntu5:~$ cat /etc/shells
+    # /etc/shells: valid login shells
+    /bin/sh
+    /usr/bin/sh
+    /bin/bash
+    /usr/bin/bash
+    /bin/rbash
+    /usr/bin/rbash
+    /usr/bin/dash
 
 
   
