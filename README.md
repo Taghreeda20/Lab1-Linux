@@ -105,6 +105,11 @@
     Taghreed20:x:1000:1000:Taghreed20:/home/Taghreed20:/bin/bash
     
   11-Display the man pages of passwd the command and the file sequentially in one command : 
+
+    Taghreed20@Ubuntu5:~$ man passwd && man 5 passwd
+    
+    ![image](https://github.com/user-attachments/assets/3933763d-0d45-47d0-a574-a4398a795f91)
+
   
 
 
