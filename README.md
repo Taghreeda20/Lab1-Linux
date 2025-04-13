@@ -114,7 +114,17 @@
     Taghreed20@Ubuntu5:~$ man 5 passwd
   ![image](https://github.com/user-attachments/assets/70a2f15b-53f3-4a2a-a5d0-6ce7a91716f8)
 
+  13-  Display a list of all the commands that contain the keyword passwd in their man page :  
 
+    Taghreed20@Ubuntu5:~$ man -k etc/passwd
+    
+    pam_localuser (8)    - require users to be listed in /etc/passwd
+    update-passwd (8)    - safely update /etc/passwd, /etc/shadow and /etc/group
+
+  14-Using vi write your CV in the file mycv. Your CV should include your name, age, school, college, experience,.. : 
+
+   Taghreed20@Ubuntu5:~$ vi mycv
+  ![image](https://github.com/user-attachments/assets/4f6dfd52-d130-4fd6-a9a7-7ede4a6dfb9f)
 
 
 
