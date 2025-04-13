@@ -40,15 +40,72 @@
   
   5-  Copy the /etc/passwd file to your home directory making its name is mypasswd :
 
-    Taghreed20@Ubuntu5:~/docs$ sudo cp /etc/passwd ~/mypasswd
+    Taghreed20@Ubuntu5:~$ sudo cp /etc/passwd ~/mypasswd
     
   6-  Rename this new file to be oldpasswd :
-
   
-  7- list four ways to go to your home directory :
+    Taghreed20@Ubuntu5:~$ sudo mv ~/mypasswd ~/oldpasswd 
+  
+  7- You are in /user/bin , list four ways to go to your home directory :
+  
+    Taghreed20@Ubuntu5:~$ cd bin
+    Taghreed20@Ubuntu5:~/bin$ cd ~
+    Taghreed20@Ubuntu5:~$ cd bin 
+    Taghreed20@Ubuntu5:~/bin$ cd $HOME
+    Taghreed20@Ubuntu5:~$ cd bin
+    Taghreed20@Ubuntu5:~/bin$ pushd ~
+    ~ ~/bin
+    Taghreed20@Ubuntu5:~$ cd bin
+    Taghreed20@Ubuntu5:~/bin$ cd .. 
+    
+  8- List Linux commands in /usr/bin that start with letter w :
+
+    Taghreed20@Ubuntu5:~/bin$ ls /usr/bin | grep '^w'
+    w
+    wall
+    watch
+    watchgnupg
+    wc
+    wdctl
+    wget
+    whatis
+    whereis
+    which
+    which.debianutils
+    whiptail
+    who
+    whoami
+    whoopsie
+    whoopsie-preferences
+    wireplumber
+    word-list-compress
+    wpa_passphrase
+    wpctl
+    wpexec
+    write
+    wsdd
+
   9- Display the first 4 lines of /etc/passwd :
+
+    Taghreed20@Ubuntu5:~$ head -4 /etc/passwd
+    root:x:0:0:root:/root:/bin/bash
+    daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+    bin:x:2:2:bin:/bin:/usr/sbin/nologin
+    sys:x:3:3:sys:/dev:/usr/sbin/nologin
+
   10-Display the last 7 lines of /etc/passwd : 
+
+    Taghreed20@Ubuntu5:~$ tail -7 /etc/passwd
+    polkitd:x:987:987:User for polkitd:/:/usr/sbin/nologin
+    rtkit:x:116:119:RealtimeKit,,,:/proc:/usr/sbin/nologin
+    colord:x:117:120:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+    gnome-initial-setup:x:118:65534::/run/gnome-initial-setup/:/bin/false
+    nm-openvpn:x:119:121:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+    gdm:x:120:122:Gnome Display Manager:/var/lib/gdm3:/bin/false
+    Taghreed20:x:1000:1000:Taghreed20:/home/Taghreed20:/bin/bash
+    
   11-Display the man pages of passwd the command and the file sequentially in one command : 
+  
 
 
 
