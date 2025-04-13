@@ -1,8 +1,8 @@
 # Lab1-Linux
   2- What is the difference between cat and more command?
-  ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/c3b99842333eefbf6ebddd7a8bbdfb961e39500f/Screenshot%202025-04-05%20222828.png)
+   ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/c3b99842333eefbf6ebddd7a8bbdfb961e39500f/Screenshot%202025-04-05%20222828.png)
   3- What is the difference between cat and more command?
-  ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/b7fb229ce67238b1dee93b456247bbb5f1714b58/Screenshot%202025-04-05%20225134.png)
+   ![Image Alt](https://github.com/Taghreeda20/Lab1-Linux/blob/b7fb229ce67238b1dee93b456247bbb5f1714b58/Screenshot%202025-04-05%20225134.png)
   4-Create the following hierarchy under your home directory:
   
     Taghreed20@Ubuntu5:~$ mkdir dir1
@@ -30,9 +30,21 @@
     Taghreed20@Ubuntu5:~/dir1$ rmdir -p dir12
 
   c- The output of the command pwd was /home/user. Write the absolute and relative path for the file mycv :   
+
+    Taghreed20@Ubuntu5:~$ cd docs
+    Taghreed20@Ubuntu5:~/docs$ pwd
+    /home/Taghreed20/docs
+    Taghreed20@Ubuntu5:~/docs$ readlink -f mycv
+    /home/Taghreed20/docs/mycv
+    Taghreed20@Ubuntu5:~/docs$ 
   
   5-  Copy the /etc/passwd file to your home directory making its name is mypasswd :
+
+    Taghreed20@Ubuntu5:~/docs$ sudo cp /etc/passwd ~/mypasswd
+    
   6-  Rename this new file to be oldpasswd :
+
+  
   7- list four ways to go to your home directory :
   9- Display the first 4 lines of /etc/passwd :
   10-Display the last 7 lines of /etc/passwd : 
